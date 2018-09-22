@@ -1,0 +1,39 @@
+{
+  "name": "tn-interpolate",
+  "version": "0.0.1",
+  "description": "Interpolate numeric and text values based in keyframes",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:w": "jest --watchAll",
+    "build": "babel src -o lib/index.js --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoGallegos/interpolate.git"
+  },
+  "keywords": [
+    "react",
+    "robot",
+    "sequencer",
+    "interpolator"
+  ],
+  "author": "Gerardo Gallegos <puxerop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GerardoGallegos/interpolate/issues"
+  },
+  "homepage": "https://github.com/GerardoGallegos/interpolate#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {}
+}
